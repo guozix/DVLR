@@ -2,7 +2,7 @@
 Implementation of "Integrating Visual Interpretation and Linguistic Reasoning for Geometric Problem Solving".
 
 <p align="center">
-<img src="teaser.png" width="1080px"/> 
+<img src="example/teaser.png" width="1080px"/> 
 </p>
 
 
