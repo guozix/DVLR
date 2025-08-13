@@ -3,7 +3,7 @@
 
 This repo implements "Integrating Visual Interpretation and Linguistic Reasoning for Math Problem Solving.
 
-[[arxiv]([https://arxiv.org/abs/2211.12739](https://arxiv.org/abs/2505.17609))] [[ICCV2025]()]
+[[arxiv](https://arxiv.org/abs/2505.17609)] [[ICCV2025]()]
 
 
 <p align="center">
