@@ -1,12 +1,19 @@
-# DVLR
-Implementation of "Integrating Visual Interpretation and Linguistic Reasoning for Geometric Problem Solving".
+
+## Introduction
+
+This repo implements "Integrating Visual Interpretation and Linguistic Reasoning for Math Problem Solving.
+
+[[arxiv]([https://arxiv.org/abs/2211.12739](https://arxiv.org/abs/2505.17609))] [[ICCV2025]()]
+
 
 <p align="center">
 <img src="example/teaser.png" width="1080px"/> 
 </p>
 
+Current large vision-language models (LVLMs) typically employ end-to-end training to achieve multi-modal understanding in a unified process. Effective alignment needs high-quality pre-training data and a carefully designed training process. Current LVLMs face challenges when addressing complex vision-language reasoning tasks, with their reasoning capabilities notably lagging behind those of LLMs. We proposes a paradigm shift: instead of training end-to-end vision-language reasoning models, we advocate for developing a decoupled reasoning framework based on existing visual interpretation specialists and text-based reasoning LLMs. Our approach leverages (1) a dedicated vision-language model to transform the visual content of images into textual descriptions and (2) an LLM to perform reasoning according to the visual-derived text and the original question. This method presents a cost-efficient solution for multi-modal model development by optimizing existing models to work collaboratively, avoiding end-to-end development of vision-language models from scratch. By transforming images into language model-compatible text representations, it facilitates future low-cost and flexible upgrades to upcoming powerful LLMs.
 
-### 1. Environment
+
+## Environment
 
 ``` bash
 conda create -n dvlr python=3.10
@@ -15,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 
-### 2. Usage
+## Usage
 
 Benchmarking vision-language model with decoupled reasoning:
 
